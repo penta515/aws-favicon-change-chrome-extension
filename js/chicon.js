@@ -1,4 +1,4 @@
-a// FaviconのDOMを取得
+// FaviconのDOMを取得
 var faviDom = $("link[rel$=icon]");
  
 // サービスの一覧
@@ -29,3 +29,5 @@ $('meta:last')
 	.attr('rel', 'shortcut icon')
 	.attr('type', 'image/ico')
 	.attr('href', imgURL));
+
+	
