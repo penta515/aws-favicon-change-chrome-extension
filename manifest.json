@@ -1,0 +1,17 @@
+{
+  "name": "AWS Favicon Changer",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "",
+  "default_locale": "en",
+  "content_scripts": [
+    {
+      "matches": ["https://console.aws.amazon.com/*"],
+      "js": ["js/jquery-2.1.0.min.js", "js/chenge_icon.js"],
+      "run_at":"document_end"
+    }
+  ],
+  "web_accessible_resources": [
+   "icons/*"
+ ]
+}
